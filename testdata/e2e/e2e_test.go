@@ -16,7 +16,7 @@ import (
 )
 
 func TestMetricSample(t *testing.T) {
-
+	t.Logf("just a test comment")
 	wd := os.Getenv("WORKING_DIR")
 
 	parsedK8sLists := &ParsedK8sLists{
